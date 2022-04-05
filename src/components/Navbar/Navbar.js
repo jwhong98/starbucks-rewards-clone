@@ -8,7 +8,9 @@ const Navbar = () => {
       <div className={classes.navbar__container}>
         <ul className={classes.navbar__menu}>
           <li className={classes.navbar__menu__item}>menu</li>
-          <li className={classes.navbar__menu__item}>rewards</li>
+          <li className={`${classes.navbar__menu__item} ${classes.active}`}>
+            rewards
+          </li>
           <li className={classes.navbar__menu__item}>gift cards</li>
         </ul>
         <div className={classes.navbar__actions}>

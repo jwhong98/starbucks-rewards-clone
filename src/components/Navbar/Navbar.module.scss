@@ -7,22 +7,32 @@
   justify-content: center;
   position: sticky;
 
+  img {
+    position: absolute;
+    left: 100px;
+  }
+
   &__container {
     width: 100%;
     max-width: $maxWidth;
     @include centerFlex;
     justify-content: space-between;
+    height: 100%;
   }
 
   &__menu {
     list-style: none;
     display: flex;
     gap: 2rem;
+    height: 100%;
 
     &__item {
       font-weight: 700;
       text-transform: uppercase;
+      @include centerFlex;
+
       letter-spacing: 2px;
+      height: 100%;
       cursor: pointer;
     }
   }
@@ -54,4 +64,8 @@
       background: $black;
     }
   }
+}
+
+.active {
+  border-bottom: 5px solid $lime;
 }

@@ -14,6 +14,11 @@
   position: sticky;
 }
 
+.navbar img {
+  position: absolute;
+  left: 100px;
+}
+
 .navbar__container {
   width: 100%;
   max-width: 1400px;
@@ -26,6 +31,7 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  height: 100%;
 }
 
 .navbar__menu {
@@ -34,12 +40,20 @@
   display: -ms-flexbox;
   display: flex;
   gap: 2rem;
+  height: 100%;
 }
 
 .navbar__menu__item {
   font-weight: 700;
   text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   letter-spacing: 2px;
+  height: 100%;
   cursor: pointer;
 }
 
@@ -91,5 +105,9 @@
   cursor: pointer;
   color: #fff;
   background: #000000;
+}
+
+.active {
+  border-bottom: 5px solid #008248;
 }
 /*# sourceMappingURL=Navbar.module.css.map */
