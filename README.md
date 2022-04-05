@@ -1,3 +1,7 @@
+# This is an unofficial clone of the Starbucks Rewards page. 
+## Official here: https://www.starbucks.com/rewards
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
