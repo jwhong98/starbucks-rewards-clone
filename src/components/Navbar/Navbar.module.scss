@@ -1,0 +1,57 @@
+@import "../../styles/_variables.scss";
+
+.navbar {
+  height: 101px;
+  width: 100%;
+  @include centerFlex;
+  justify-content: center;
+  position: sticky;
+
+  &__container {
+    width: 100%;
+    max-width: $maxWidth;
+    @include centerFlex;
+    justify-content: space-between;
+  }
+
+  &__menu {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+
+    &__item {
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      cursor: pointer;
+    }
+  }
+
+  &__actions {
+    @include centerFlex;
+    gap: 2rem;
+
+    a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: $black;
+      font-weight: 600;
+      @include centerFlex;
+
+      ion-icon {
+        font-size: 1.5rem;
+        margin-right: 10px;
+      }
+    }
+
+    &__button1 {
+      @include button;
+    }
+
+    &__button2 {
+      @include button;
+      color: #fff;
+      background: $black;
+    }
+  }
+}

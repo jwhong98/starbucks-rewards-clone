@@ -1,0 +1,95 @@
+.navbar {
+  height: 101px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.navbar__container {
+  width: 100%;
+  max-width: 1400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.navbar__menu {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 2rem;
+}
+
+.navbar__menu__item {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+.navbar__actions {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.navbar__actions a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #000000;
+  font-weight: 600;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar__actions a ion-icon {
+  font-size: 1.5rem;
+  margin-right: 10px;
+}
+
+.navbar__actions__button1 {
+  padding: 7px 16px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background: none;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+
+.navbar__actions__button2 {
+  padding: 7px 16px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  background: none;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  color: #fff;
+  background: #000000;
+}
+/*# sourceMappingURL=Navbar.module.css.map */

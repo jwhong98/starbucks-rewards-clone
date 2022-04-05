@@ -1,0 +1,39 @@
+.header {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header__banner {
+  width: 100vw;
+  height: 50px;
+  background: #1e3932;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__banner__container {
+  width: 100%;
+  max-width: 1400px;
+  color: #fff;
+}
+
+.header__banner__container h3 {
+  text-transform: uppercase;
+  font-size: 1.15rem;
+  letter-spacing: 2px;
+}
+/*# sourceMappingURL=Header.module.css.map */
