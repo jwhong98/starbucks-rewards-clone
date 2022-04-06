@@ -1,4 +1,5 @@
 import React from "react";
+import Extras from "../Extras/Extras";
 import Favorites from "../Favorites/Favorites";
 import GetStarted from "../GetStarted/GetStarted";
 import Hero from "../Hero/Hero";
@@ -10,6 +11,7 @@ const Main = () => {
       <Hero />
       <GetStarted />
       <Favorites />
+      <Extras />
     </main>
   );
 };

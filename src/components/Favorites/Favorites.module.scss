@@ -13,8 +13,11 @@
   }
 
   &__content {
+    width: 100%;
     @include centerFlex;
     justify-content: center;
+    box-shadow: black 0px 5px 9px -9px;
+    z-index: 3;
 
     .tablinks {
       padding: 8px 8px 16px;
