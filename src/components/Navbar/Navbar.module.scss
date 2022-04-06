@@ -6,10 +6,10 @@
   @include centerFlex;
   justify-content: center;
   position: sticky;
-
   img {
     position: absolute;
-    left: 100px;
+    left: 140px;
+    width: 4rem;
   }
 
   &__container {
@@ -30,7 +30,7 @@
       font-weight: 700;
       text-transform: uppercase;
       @include centerFlex;
-
+      border-bottom: 5px solid transparent;
       letter-spacing: 2px;
       height: 100%;
       cursor: pointer;
