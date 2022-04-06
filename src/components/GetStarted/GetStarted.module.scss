@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+
+.getStarted {
+  @include centerFlex;
+  justify-content: center;
+
+  &__container {
+    width: 100%;
+    max-width: $maxWidth;
+    @include centerFlex;
+    flex-direction: column;
+    gap: 2rem;
+
+    h2 {
+      font-size: 28px;
+      font-weight: 600;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    &__steps {
+      @include centerFlex;
+      justify-content: space-around;
+      padding: 20px 0 0 0;
+    }
+  }
+}
