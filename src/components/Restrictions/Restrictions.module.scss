@@ -1,0 +1,29 @@
+@import "../../styles/variables";
+
+.restrictions {
+  background: #f9f9f9;
+
+  &__container {
+    width: 100%;
+    max-width: $maxWidth;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    h2 {
+      margin: 1rem 0;
+      font-size: 14px;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.58);
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 1rem;
+    }
+
+    &__grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
