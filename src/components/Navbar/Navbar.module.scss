@@ -34,6 +34,10 @@
       letter-spacing: 2px;
       height: 100%;
       cursor: pointer;
+
+      &:hover {
+        color: $lime;
+      }
     }
   }
 
@@ -48,6 +52,10 @@
       font-weight: 600;
       @include centerFlex;
 
+      &:hover {
+        color: $lime;
+      }
+
       ion-icon {
         font-size: 1.5rem;
         margin-right: 10px;
@@ -56,12 +64,20 @@
 
     &__button1 {
       @include button;
+
+      &:hover {
+        background-color: #f0f0f0;
+      }
     }
 
     &__button2 {
       @include button;
       color: #fff;
       background: $black;
+
+      &:hover {
+        opacity: 0.7;
+      }
     }
   }
 }
