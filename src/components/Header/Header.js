@@ -8,7 +8,7 @@ const Header = () => {
       <Navbar />
       <div className={classes.header__banner}>
         <div className={classes.header__banner__container}>
-          <h3>starbucks rewards</h3>
+          <h1>starbucks rewards</h1>
         </div>
       </div>
     </header>
