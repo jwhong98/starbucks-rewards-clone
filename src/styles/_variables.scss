@@ -23,3 +23,15 @@ $maxWidth: 1440px;
   text-align: center;
   cursor: pointer;
 }
+
+@mixin laptop {
+  @media screen and (max-width: 1024) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
