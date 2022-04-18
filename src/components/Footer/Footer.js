@@ -203,7 +203,7 @@ const Footer = () => {
           </li>
         </ul>
         <p className={classes.footer__container__copyright}>
-          © 2022 Starbucks Coffee Company. All rights reserved.
+          Unofficial Starbucks Rewards clone. Coded by Jaewon Hong.
         </p>
       </div>
     </footer>
